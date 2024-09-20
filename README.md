@@ -28,7 +28,7 @@ The primary objective of this project is to compile a comprehensive list of Gene
 
 ## Technical Architecture
 
-## - FastAPI Service:
+## > FastAPI Service:
 
 The FastAPI server is responsible for running the web scraper. It exposes an endpoint (/save_to_csv) that triggers the scraping process, compiles clinic details, and saves them into a CSV file.
 
@@ -37,7 +37,7 @@ Data is scraped from a reliable government website, specifically from the Queens
 The scraped data is processed and validated before being saved into a CSV file.
 The CSV file is then served as a downloadable file for users.
 
-## - Streamlit Web Interface:
+## > Streamlit Web Interface:
 
 A Streamlit front-end interface allows users to trigger the scraping process with a button labeled Extract Data and Download CSV.
 Upon clicking the button, a request is made to the FastAPI endpoint. Once the process is complete, the CSV file is made available for download.
@@ -62,11 +62,11 @@ This will start the FastAPI server on http://127.0.0.1:8080.
 
 ### Set up Streamlit Server:
 
-### - Install Streamlit:
+### > Install Streamlit:
 
 pip install streamlit
 
-### - Run the Streamlit app:
+### > Run the Streamlit app:
 
 Copy code
 
