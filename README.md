@@ -1,5 +1,8 @@
 # Queensland Clinic Scraper (FAST API)
 
+<img width="631" alt="App" src="https://github.com/user-attachments/assets/c1b6c9bf-36e9-432a-ae26-2de0c45a2e73">
+
+
 ## Objectives
 
 The primary objective of this project is to compile a comprehensive list of General Practice Clinics/Medical Centres located in Queensland, Australia. The project involves using programmatic methods to scrape data from reliable sources, extract clinic details, and present them in an organized Excel format. The collected data includes:
@@ -51,12 +54,17 @@ Ensure you have Python installed, and install the required dependencies:
 
 
 Copy code
-pip install fastapi uvicorn requests beautifulsoup4 pandas
+
+<img width="514" alt="Screenshot 2024-09-20 at 20 10 53" src="https://github.com/user-attachments/assets/ae329a55-0bc3-49e1-8261-03a859052869">
+
 
 Run the FastAPI server using uvicorn:
 
 Copy code
-uvicorn main:app --reload --port 8080
+
+<img width="359" alt="Screenshot 2024-09-20 at 20 10 59" src="https://github.com/user-attachments/assets/7dd32650-b495-4d80-9733-6734a68b78c9">
+
+
 
 This will start the FastAPI server on http://127.0.0.1:8080.
 
@@ -64,13 +72,15 @@ This will start the FastAPI server on http://127.0.0.1:8080.
 
 ### > Install Streamlit:
 
-pip install streamlit
+<img width="209" alt="Screenshot 2024-09-20 at 20 11 04" src="https://github.com/user-attachments/assets/7b62c8b1-01c2-41f7-95d6-401fb51b71a8">
+
 
 ### > Run the Streamlit app:
 
 Copy code
 
-streamlit run streamlit_app.py
+<img width="291" alt="Screenshot 2024-09-20 at 20 11 08" src="https://github.com/user-attachments/assets/96439f95-26ad-41dc-a24f-f26dab6334f9">
+
 
 Access the app in your browser at http://localhost:8501.
 
